@@ -1,0 +1,28 @@
+
+.p-slidemenu {
+  background: #453DE0 !important;
+  position: absolute !important;
+  width: 225px !important;
+  height: 1117px !important;
+  left: 0px !important;
+  top: 0px !important;
+  border-radius: 0 10px 10px 0px !important;
+}
+
+.p-slidemenu .p-menuitem-link .p-menuitem-text {
+  color: #FFFFFF !important;
+}
+
+.p-slidemenu .p-menuitem-link .p-menuitem-icon {
+  color: #FFFFFF !important;
+  margin-right: 0.5rem;
+}
+
+.p-slidemenu .p-menuitem-link:not(.p-disabled):hover {
+  background: unset !important;
+}
+.pi-user:before {
+  position: absolute;
+  color: #453DE0;
+  left: 13px;
+}
