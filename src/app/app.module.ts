@@ -5,6 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SideBarComponent } from './menu/sideBar/side-bar/side-bar.component';
 
+
+import {AccordionModule} from 'primeng/accordion';
+import {MenuItem} from 'primeng/api';
+
 @NgModule({
   declarations: [
     AppComponent,

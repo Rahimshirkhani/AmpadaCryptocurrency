@@ -1,0 +1,29 @@
+.sidebar{
+  background: #453DE0;
+  position: absolute;
+  width: 225px;
+  height: 1117px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0 10px 10px 0;
+}
+.News{
+  position: absolute;
+  width: 45px;
+  height: 23px;
+  left: 61px;
+  top: 70px;
+}
+.News a{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.icon-sidebar{
+  position: absolute;
+}
