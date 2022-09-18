@@ -1,3 +1,6 @@
+
+
+
 .sidebar{
   background: #453DE0;
   position: absolute;
@@ -26,4 +29,23 @@
 }
 .icon-sidebar{
   position: absolute;
+}
+
+.NFT {
+  position: absolute;
+  width: 33px;
+  height: 23px;
+  left: 61px;
+  top: 139px;
+}
+
+.NFT a {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
 }
