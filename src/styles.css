@@ -72,7 +72,7 @@ body{
   position: absolute;
   width: 143px;
   height: 23px;
-  left: 1102px;
+  left: 1190px;
   top: 10px;
   font-family: 'DM Sans';
   font-style: normal;
@@ -92,7 +92,105 @@ body{
   background:#E1E5F8;
   border-radius:25px;
 }
+.rectangle5670{
+  position: absolute;
+  width: 582px;
+  height: 346px;
+  left: 280px;
+  top: 106px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+.rectangle5671
+{
+  position: absolute;
+  width: 390px;
+  height: 346px;
+  left: 892px;
+  top: 106px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+.rectangle5672
+{
+  position: absolute;
+  width: 371px;
+  height: 184px;
+  left: 1312px;
+  top: 106px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+.rectangle5673
+{
+  position: absolute;
+  width: 371px;
+  height: 148px;
+  left: 1312px;
+  top: 312px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+.rectangle5674
+{
+  position: absolute;
+  width: 371px;
+  height: 90px;
+  left: 1312px;
+  top: 473px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
 
+.show-all
+{
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  left: 1622px;
+  top: 569px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+}
+.show-all a{
+  /* Label */
+  color: #A9ACBB;
+}
+.rectangle5675{
+  position: absolute;
+  width: 371px;
+  height: 184px;
+  left: 1311px;
+  top: 612px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+
+.rectangle5676{
+  position: absolute;
+  width: 371px;
+  height: 263px;
+  left: 1312px;
+  top: 818px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+
+.rectangle5677{
+  position: absolute;
+  width: 1002px;
+  height: 551px;
+  left: 279px;
+  top: 510px;
+  background: #FFFFFF;
+  border-radius: 6px;
+}
 
 
 

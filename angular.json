@@ -34,7 +34,10 @@
               "src/styles.css",
               "src/assets/Css/CustomPrimeng.css"
             ],
-            "scripts": []
+            "scripts": [
+
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {

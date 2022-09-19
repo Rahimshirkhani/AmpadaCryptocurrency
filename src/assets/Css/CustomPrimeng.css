@@ -26,3 +26,8 @@
   color: #453DE0;
   left: 13px;
 }
+
+.pi-credit-card:before {
+  color: #453DE0;
+  padding-right: 6px;
+}

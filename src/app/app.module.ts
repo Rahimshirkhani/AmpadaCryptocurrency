@@ -8,13 +8,15 @@ import { SideBarComponent } from './Menu/sideBar/side-bar.component';
 
 
 import { SlideMenuModule } from 'primeng/slidemenu';
+import { TabViewModule } from 'primeng/tabview';
 import { ButtonModule } from 'primeng/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TopBarComponent } from './menu/top-bar/top-bar.component';
 import { IndexComponent } from './index/index.component';
-
-
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import * as echarts from 'echarts';
+import { NgxEchartsModule } from 'ngx-echarts';
 
 
 @NgModule({
@@ -22,17 +24,25 @@ import { IndexComponent } from './index/index.component';
     AppComponent,
     SideBarComponent,
     TopBarComponent,
-    IndexComponent
+    IndexComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
+    NgxEchartsModule.forRoot({
+      echarts: () => import('echarts')
+    }),
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
     SlideMenuModule,
+    TabViewModule,
     ButtonModule,
-    AppRoutingModule
+
+
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
