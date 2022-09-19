@@ -1,5 +1,5 @@
 <div class="rectangle5670">
-  <div echarts [options]="options" [merge]="updateOptions" class="demo-chart"></div>
+
 </div>
 
 <div class="rectangle5671">
@@ -7,14 +7,24 @@
 </div>
 
 <div class="rectangle5672">
-
+  <p>you have reach 70% of your daily deposit of $10,000</p>
+  <a>Expand limit</a>
+  <div class="knob">
+    <p-knob [(ngModel)]="value1" [size]="120" valueTemplate="{value}%" valueColor="Blue"
+            rangeColor="MediumTurquoise"></p-knob>
+  </div>
 </div>
 
 <div class="rectangle5673">
-
+  <img src="../../assets/images/Vector1.png">
+  <h1>17</h1>
+  <p class="p1">Total transactions</p>
+  <p class="p2">This week</p>
 </div>
 
 <div class="rectangle5674">
+  <p class="p1">Bought Shiba Inu <span>Avg</span> $0.000037</p>
+  <p class="p2">yesterday <span>22,013,222</span>Shib</p>
 
 </div>
 
@@ -22,9 +32,24 @@
   <a>Show all</a>
 </div>
 
-<div class="rectangle5675"></div>
+<div class="rectangle5675">
+  <h2>Stacking</h2>
+  <p>You have 6 active stacking</p>
+  <hr/>
+  <p class="p1">Estimate Annual Reward <span>9.3 % p.a.</span></p>
+  <p class="p2">Estimate Earnings <span>$10.56 USD</span></p>
+</div>
 
-<div class="rectangle5676"></div>
+<div class="rectangle5676">
+  <img src="../../assets/images/Vector2.png">
+  <p class="news-h">This week in crypto</p>
+  <p class="news-date">Dec 23,2021</p>
+  <p class="news-p">Bitcoin is up 5%, Etherum is up 12%, Elsalvador buy the "deep" and more...</p>
+</div>
+
+<div class="show-all-news">
+  <a>Show all news</a>
+</div>
 
 <div class="rectangle5677">
   <div class="card">
@@ -37,6 +62,6 @@
       <p-tabPanel header="Recomanded"></p-tabPanel>
       <p-tabPanel header="Recomanded"></p-tabPanel>
       <p-tabPanel header="Recently sold"></p-tabPanel>
-      </p-tabView>
+    </p-tabView>
   </div>
 </div>

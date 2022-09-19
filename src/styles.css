@@ -1,17 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+body {
   background: #F8F9FD
 }
-.Topbar{
+
+.Topbar {
   position: absolute;
-  width:1503px;
+  width: 1503px;
   height: 65px;
   left: 225px;
   top: 0px;
   background: #FFFFFF;
   border-bottom: 1px solid #A9ACBB;
 }
-.my-profile{
+
+.my-profile {
   width: 200px;
   height: 17px;
   padding-left: 55px;
@@ -26,8 +28,7 @@ body{
   color: #4C506B;
 }
 
-.Crypto-assets
-{
+.Crypto-assets {
   position: absolute;
   width: 123px;
   height: 23px;
@@ -42,8 +43,8 @@ body{
   align-items: center;
   color: #453DE0;
 }
-.topbar-line
-{
+
+.topbar-line {
   position: absolute;
   width: 37px;
   height: 0;
@@ -52,6 +53,7 @@ body{
   border: 1px solid #A9ACBB;
   transform: rotate(90deg);
 }
+
 .stocks {
   position: absolute;
   width: 58px;
@@ -68,6 +70,7 @@ body{
   color: #A9ACBB;
 
 }
+
 .Connect-wallet {
   position: absolute;
   width: 143px;
@@ -83,16 +86,18 @@ body{
   align-items: center;
   color: #A9ACBB;
 }
-.topbar-user{
+
+.topbar-user {
   position: absolute;
   width: 43px;
   height: 43px;
   left: 1415px;
   top: 15px;
-  background:#E1E5F8;
-  border-radius:25px;
+  background: #E1E5F8;
+  border-radius: 25px;
 }
-.rectangle5670{
+
+.rectangle5670 {
   position: absolute;
   width: 582px;
   height: 346px;
@@ -101,8 +106,8 @@ body{
   background: #FFFFFF;
   border-radius: 12px;
 }
-.rectangle5671
-{
+
+.rectangle5671 {
   position: absolute;
   width: 390px;
   height: 346px;
@@ -111,8 +116,8 @@ body{
   background: #FFFFFF;
   border-radius: 12px;
 }
-.rectangle5672
-{
+
+.rectangle5672 {
   position: absolute;
   width: 371px;
   height: 184px;
@@ -121,8 +126,42 @@ body{
   background: #FFFFFF;
   border-radius: 12px;
 }
-.rectangle5673
-{
+
+.rectangle5672 p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #9FA2B2;
+  padding-left: 21px;
+  padding-top: 31px;
+  width: 198px;
+}
+
+.rectangle5672 a {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #453DE0;
+  padding-left: 21px;
+}
+
+.knob {
+  position: absolute;
+  left: 58.12%;
+  right: 3.88%;
+  top: 25.35%;
+  bottom: 76.81%;
+}
+
+.rectangle5673 {
   position: absolute;
   width: 371px;
   height: 148px;
@@ -131,8 +170,61 @@ body{
   background: #FFFFFF;
   border-radius: 12px;
 }
-.rectangle5674
-{
+
+.rectangle5673 img {
+  position: absolute;
+  left: 34px;
+  right: 34px;
+  top: 18px;
+  bottom: 18px;
+}
+
+.rectangle5673 .p1 {
+  position: absolute;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+  padding-top: 51px;
+  width: 198px;
+  color: #9FA2B2;
+}
+
+.rectangle5673 .p2 {
+  position: absolute;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+  padding-top: 80px;
+  width: 198px;
+  color: #9FA2B2;
+}
+
+.rectangle5673 h1 {
+  position: absolute;
+  width: 31px;
+  height: 33px;
+  left: 295px;
+  top: -16px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 95.2%;
+  display: flex;
+  color: #4C506B !important;
+}
+
+.rectangle5674 {
   position: absolute;
   width: 371px;
   height: 90px;
@@ -142,8 +234,57 @@ body{
   border-radius: 12px;
 }
 
-.show-all
-{
+.rectangle5674 .p1{
+  position: absolute;
+  width: 350px;
+  height: 25px;
+  left: 18px;
+  top: -7px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.3548px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #4C506B;
+}
+
+.rectangle5674 .p2{
+  position: absolute;
+  width: 350px;
+  height: 25px;
+  left: 18px;
+  top: 24px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #9FA2B2;
+}
+.rectangle5674 .p1 span{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 83px;
+  padding-right: 5px;
+  color: #9FA2B2;
+}
+
+.rectangle5674 .p2 span{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  padding-left: 142px;
+  padding-right: 5px;
+  color: #4C506B;
+}
+.show-all {
   position: absolute;
   width: 60px;
   height: 21px;
@@ -158,11 +299,28 @@ body{
   display: flex;
   align-items: center;
 }
-.show-all a{
+
+.show-all-news {
+  position: absolute;
+  width: 98px;
+  height: 21px;
+  left: 1583px;
+  top: 1093px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #A9ACBB;
+}
+.show-all a {
   /* Label */
   color: #A9ACBB;
 }
-.rectangle5675{
+
+.rectangle5675 {
   position: absolute;
   width: 371px;
   height: 184px;
@@ -170,9 +328,38 @@ body{
   top: 612px;
   background: #FFFFFF;
   border-radius: 12px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+.rectangle5675 h2 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 10px;
 }
 
-.rectangle5676{
+.rectangle5675 p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  padding-left: 10px;
+  margin-top: -5px;
+  color: #A9ACBB;
+
+}
+.rectangle5675 span{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  padding-left: 98px;
+  padding-right: 5px;
+  color: #4C506B;
+  text-align: justify;
+}
+.rectangle5676 {
   position: absolute;
   width: 371px;
   height: 263px;
@@ -182,7 +369,34 @@ body{
   border-radius: 12px;
 }
 
-.rectangle5677{
+.rectangle5676 .news-h{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 18px;
+}
+
+.rectangle5676 .news-date{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #A9ACBB;
+  padding-left: 18px;
+  margin-top: -10px;
+}
+
+.rectangle5676 .news-p{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #A9ACBB;
+  padding-left: 18px;
+  width: 312px;
+  margin-top: -10px;
+}
+.rectangle5677 {
   position: absolute;
   width: 1002px;
   height: 551px;

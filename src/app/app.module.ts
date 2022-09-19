@@ -10,13 +10,16 @@ import { SideBarComponent } from './Menu/sideBar/side-bar.component';
 import { SlideMenuModule } from 'primeng/slidemenu';
 import { TabViewModule } from 'primeng/tabview';
 import { ButtonModule } from 'primeng/button';
+import { KnobModule } from "primeng/knob";
+
+
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TopBarComponent } from './menu/top-bar/top-bar.component';
 import { IndexComponent } from './index/index.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import * as echarts from 'echarts';
-import { NgxEchartsModule } from 'ngx-echarts';
+
+//import { NgxEchartsModule } from 'ngx-echarts';
 
 
 @NgModule({
@@ -30,13 +33,14 @@ import { NgxEchartsModule } from 'ngx-echarts';
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
-    NgxEchartsModule.forRoot({
-      echarts: () => import('echarts')
-    }),
+  //  NgxEchartsModule.forRoot({
+   //   echarts: () => import('echarts')
+   // }),
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
     SlideMenuModule,
+    KnobModule,
     TabViewModule,
     ButtonModule,
 
