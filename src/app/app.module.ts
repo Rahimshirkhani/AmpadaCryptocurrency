@@ -49,7 +49,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppRoutingModule,
 
   ],
-  providers: [],
+  providers: [
+   // {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

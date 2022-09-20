@@ -34,25 +34,24 @@ export class IndexComponent implements OnInit {
         {
           data: [250, 300, 350, 200, 250, 50],
           backgroundColor: [
-            "#FF6384",
-            "#36A2EB",
-            "#FFCE56",
-            "#FF6384",
-            "#36A2EB",
-            "#FFCE56"
+            "#BAB6F3",
+            "#D8D5F9",
+            "#A9ACBB",
+            "#453DE0",
+            "#7C76EB",
+            "#4C506B"
           ],
           hoverBackgroundColor: [
-            "#FF6384",
-            "#36A2EB",
-            "#FFCE56",
-            "#FF6384",
-            "#36A2EB",
-            "#FFCE56"
+            "#BAB6F3",
+            "#D8D5F9",
+            "#A9ACBB",
+            "#453DE0",
+            "#7C76EB",
+            "#4C506B"
           ]
         }
       ]
     };
-
     this.basicOptions = {
       responsive: true,
     };
@@ -68,6 +67,9 @@ export class IndexComponent implements OnInit {
         }
       ]
     };
+
+
+
   }
 
 }
