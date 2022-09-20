@@ -1,9 +1,11 @@
 <div class="rectangle5670">
-
+  <p>Your balance<i class="pi pi-fw pi-eye"></i></p>
+  <h2>$7/033.22</h2>
+  <p-chart type="line" [data]="basicData" [options]="basicOptions"></p-chart>
 </div>
 
 <div class="rectangle5671">
-
+  <p-chart type="doughnut" [data]="chartdata" [options]="chartOptions" [style]="{'width': '20%'}"></p-chart>
 </div>
 
 <div class="rectangle5672">
@@ -41,7 +43,7 @@
 </div>
 
 <div class="rectangle5676">
-  <img src="../../assets/images/Vector2.png">
+  <img src="../../assets/images/Vector2.png" width="360">
   <p class="news-h">This week in crypto</p>
   <p class="news-date">Dec 23,2021</p>
   <p class="news-p">Bitcoin is up 5%, Etherum is up 12%, Elsalvador buy the "deep" and more...</p>
@@ -55,6 +57,7 @@
   <div class="card">
     <p-tabView>
       <p-tabPanel header="Protfolio">
+
       </p-tabPanel>
       <p-tabPanel header="Watchlist"></p-tabPanel>
       <p-tabPanel header="Gainers"></p-tabPanel>

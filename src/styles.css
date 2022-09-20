@@ -5,7 +5,7 @@ body {
 
 .Topbar {
   position: absolute;
-  width: 1503px;
+  width: 85.8%;
   height: 65px;
   left: 225px;
   top: 0px;
@@ -75,7 +75,7 @@ body {
   position: absolute;
   width: 143px;
   height: 23px;
-  left: 1190px;
+  left: 1040px;
   top: 10px;
   font-family: 'DM Sans';
   font-style: normal;
@@ -91,7 +91,7 @@ body {
   position: absolute;
   width: 43px;
   height: 43px;
-  left: 1415px;
+  left: 1280px;
   top: 15px;
   background: #E1E5F8;
   border-radius: 25px;
@@ -99,7 +99,7 @@ body {
 
 .rectangle5670 {
   position: absolute;
-  width: 582px;
+  width: 535px;
   height: 346px;
   left: 280px;
   top: 106px;
@@ -107,11 +107,42 @@ body {
   border-radius: 12px;
 }
 
+.rectangle5670 p{
+  position: absolute;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 0px;
+  width: 198px;
+  color: #9FA2B2;
+}
+
+.rectangle5670 h2{
+  position: absolute;
+  width: 31px;
+  height: 33px;
+  left: 29px;
+  top: 12px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 95.2%;
+  display: flex;
+  color: #4C506B !important;
+}
+
+
 .rectangle5671 {
   position: absolute;
-  width: 390px;
+  width: 360px;
   height: 346px;
-  left: 892px;
+  left: 836px;
   top: 106px;
   background: #FFFFFF;
   border-radius: 12px;
@@ -119,9 +150,9 @@ body {
 
 .rectangle5672 {
   position: absolute;
-  width: 371px;
+  width: 360px;
   height: 184px;
-  left: 1312px;
+  left: 1218px;
   top: 106px;
   background: #FFFFFF;
   border-radius: 12px;
@@ -163,9 +194,9 @@ body {
 
 .rectangle5673 {
   position: absolute;
-  width: 371px;
+  width: 360px;
   height: 148px;
-  left: 1312px;
+  left: 1218px;
   top: 312px;
   background: #FFFFFF;
   border-radius: 12px;
@@ -226,9 +257,9 @@ body {
 
 .rectangle5674 {
   position: absolute;
-  width: 371px;
+  width: 360px;
   height: 90px;
-  left: 1312px;
+  left: 1218px;
   top: 473px;
   background: #FFFFFF;
   border-radius: 12px;
@@ -288,7 +319,7 @@ body {
   position: absolute;
   width: 60px;
   height: 21px;
-  left: 1622px;
+  left: 1478px;
   top: 569px;
   font-family: 'DM Sans';
   font-style: normal;
@@ -304,7 +335,7 @@ body {
   position: absolute;
   width: 98px;
   height: 21px;
-  left: 1583px;
+  left: 1478px;
   top: 1093px;
   font-family: 'DM Sans';
   font-style: normal;
@@ -322,9 +353,9 @@ body {
 
 .rectangle5675 {
   position: absolute;
-  width: 371px;
+  width: 360px;
   height: 184px;
-  left: 1311px;
+  left: 1218px;
   top: 612px;
   background: #FFFFFF;
   border-radius: 12px;
@@ -361,9 +392,9 @@ body {
 }
 .rectangle5676 {
   position: absolute;
-  width: 371px;
+  width: 360px;
   height: 263px;
-  left: 1312px;
+  left: 1218px;
   top: 818px;
   background: #FFFFFF;
   border-radius: 12px;
@@ -398,13 +429,14 @@ body {
 }
 .rectangle5677 {
   position: absolute;
-  width: 1002px;
+  width: 916px;
   height: 551px;
   left: 279px;
   top: 510px;
   background: #FFFFFF;
   border-radius: 6px;
 }
+
 
 
 
