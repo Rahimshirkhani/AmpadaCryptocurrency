@@ -11,7 +11,7 @@ import { SlideMenuModule } from 'primeng/slidemenu';
 import { TabViewModule } from 'primeng/tabview';
 import { ButtonModule } from 'primeng/button';
 import { KnobModule } from "primeng/knob";
-
+import { ChartModule } from 'primeng/chart';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
@@ -41,6 +41,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HttpClientModule,
     SlideMenuModule,
     KnobModule,
+    ChartModule,
     TabViewModule,
     ButtonModule,
 

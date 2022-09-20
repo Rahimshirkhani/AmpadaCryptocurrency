@@ -107,6 +107,37 @@ body {
   border-radius: 12px;
 }
 
+.rectangle5670 p{
+  position: absolute;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 0px;
+  width: 198px;
+  color: #9FA2B2;
+}
+
+.rectangle5670 h2{
+  position: absolute;
+  width: 31px;
+  height: 33px;
+  left: 29px;
+  top: 12px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 95.2%;
+  display: flex;
+  color: #4C506B !important;
+}
+
+
 .rectangle5671 {
   position: absolute;
   width: 390px;
@@ -405,6 +436,7 @@ body {
   background: #FFFFFF;
   border-radius: 6px;
 }
+
 
 
 

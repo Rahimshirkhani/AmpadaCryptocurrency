@@ -1,9 +1,11 @@
 <div class="rectangle5670">
-
+  <p>Your balance<i class="pi pi-fw pi-eye"></i></p>
+  <h2>$7/033.22</h2>
+  <p-chart type="line" [data]="basicData" [options]="basicOptions"></p-chart>
 </div>
 
 <div class="rectangle5671">
-
+  <p-chart type="doughnut" [data]="chartdata" [options]="chartOptions" [style]="{'width': '20%'}"></p-chart>
 </div>
 
 <div class="rectangle5672">
@@ -55,6 +57,7 @@
   <div class="card">
     <p-tabView>
       <p-tabPanel header="Protfolio">
+        
       </p-tabPanel>
       <p-tabPanel header="Watchlist"></p-tabPanel>
       <p-tabPanel header="Gainers"></p-tabPanel>
