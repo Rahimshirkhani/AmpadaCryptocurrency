@@ -1,28 +1,24 @@
-import {environment} from "../../../environments/environment";
+import { Injectable } from '@angular/core';
 import {map, Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
-import {HttpRequestResult} from "../../models/http-request-result";
-import {Coin} from "../../models/coin";
-
+import {HttpRequestResult} from "../models/http-request-result";
+import {Coin} from "../models/coin";
+import {environment} from "../../environments/environment";
 
 const baseUrl = `${environment.apiUrl}`;
 
 @Injectable({
   providedIn: 'root'
 })
+export class CoinsService {
 
-export class UserService {
-
-  constructor(
-    private http: HttpClient,
-  ) {
-  }
+  constructor(private http: HttpClient) { }
 
   public getAll(): Observable<HttpRequestResult<Coin[]>> {
-    // debugger;
+     debugger;
     const requestUrl: string =
-      baseUrl+`/tickers`;
-    // debugger;
+      baseUrl+`tickers/`;
+     debugger;
     const requestData = null;
 
 

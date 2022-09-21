@@ -54,9 +54,44 @@
 </div>
 
 <div class="rectangle5677">
-  <div class="card">
+  <div class="coin">
     <p-tabView>
       <p-tabPanel header="Protfolio">
+        <div class="coin">
+          <p-table
+            [columns]="cols"
+            [value]="virtualCoins"
+            [scrollable]="true"
+            [rows]="100"
+            scrollHeight="450px"
+            [virtualScroll]="true"
+            [virtualRowHeight]="34"
+            [lazy]="true"
+            (onLazyLoad)="loadCoinsLazy($event)"
+          >
+            <ng-template pTemplate="header" let-columns>
+              <tr>
+                <th *ngFor="let col of columns">
+                  {{ col.header }}
+                </th>
+              </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-rowData let-columns="columns">
+              <tr style="height:34px">
+                <td *ngFor="let col of columns">
+                  {{ rowData[col.field] }}
+                </td>
+              </tr>
+            </ng-template>
+            <ng-template pTemplate="loadingbody" let-columns="columns">
+              <tr style="height:34px">
+                <td *ngFor="let col of columns">
+                  <p-skeleton [ngStyle]="{ width: '100%' }"></p-skeleton>
+                </td>
+              </tr>
+            </ng-template>
+          </p-table>
+        </div>
 
       </p-tabPanel>
       <p-tabPanel header="Watchlist"></p-tabPanel>

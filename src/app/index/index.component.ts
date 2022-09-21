@@ -1,8 +1,13 @@
 import {Component, OnInit, OnDestroy} from '@angular/core';
-import {MessageService} from 'primeng/api';
-import {Subscription} from 'rxjs';
 import {AppConfig} from "../domain/app-config";
 import {AppConfigService} from "../service/app-config-service";
+
+import { LazyLoadEvent } from 'primeng/api';
+import { SelectItem } from 'primeng/api';
+import { MessageService } from 'primeng/api';
+import { Table } from 'primeng/table';
+import {Coin} from "../models/coin";
+import {CoinsService} from "../service/coins.service";
 
 
 @Component({
@@ -19,7 +24,12 @@ export class IndexComponent implements OnInit {
   basicData: any;
   basicOptions: any;
 
-  constructor() {
+  public coins?: Coin[];
+  virtualCoins: Coin[];
+  cols: any[];
+
+  constructor(private coinService: CoinsService) {
+    this.coins = [];
   }
 
   ngOnInit() {
@@ -69,7 +79,41 @@ export class IndexComponent implements OnInit {
     };
 
 
+    this.cols = [
+      { field: 'id', header: 'id' },
+      { field: 'symbol', header: 'symbol' },
+      { field: 'name', header: 'name' },
+      { field: 'nameId', header: 'nameId' },
+      { field: 'price_usd', header: 'price_usd' },
+      { field: 'price_btc', header: 'price_btc' },
+      { field: 'market_cap_usd', header: 'market_cap_usd' },
+    ];
 
+
+debugger;
+      this.coinService.getAll()
+        .subscribe(response => {
+          this.coins = response.data;
+        });
+    debugger;
+    this.virtualCoins = Array.from({ length: 10000 });
+  }
+
+  loadCoinsLazy(event: LazyLoadEvent) {
+    //simulate remote connection with a timeout
+    setTimeout(() => {
+      //load data of required page
+      let loadedCoins = this.coins!.slice(event.first!, event.first! + event.rows!);
+
+      //populate page of virtual coins
+     // Array.prototype.splice.apply(this.virtualCoins!, [
+      //  ...[event.first, event.rows],
+    //    ...loadedCoins,
+     // ]);
+
+      //trigger change detection
+      this.virtualCoins = [...this.virtualCoins];
+    }, Math.random() * 1000 + 250);
   }
 
 }

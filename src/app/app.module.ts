@@ -18,8 +18,19 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TopBarComponent } from './menu/top-bar/top-bar.component';
 import { IndexComponent } from './index/index.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {SkeletonModule} from "primeng/skeleton";
+import {ProgressBarModule} from "primeng/progressbar";
+import {InputTextModule} from "primeng/inputtext";
+import {ToastModule} from "primeng/toast";
+import {DropdownModule} from "primeng/dropdown";
+import {ContextMenuModule} from "primeng/contextmenu";
+import {MultiSelectModule} from "primeng/multiselect";
+import {DialogModule} from "primeng/dialog";
+import {SliderModule} from "primeng/slider";
+import {CalendarModule} from "primeng/calendar";
+import {TableModule} from "primeng/table";
 
-//import { NgxEchartsModule } from 'ngx-echarts';
+
 
 
 @NgModule({
@@ -44,7 +55,17 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ChartModule,
     TabViewModule,
     ButtonModule,
-
+    TableModule,
+    CalendarModule,
+    SliderModule,
+    DialogModule,
+    MultiSelectModule,
+    ContextMenuModule,
+    DropdownModule,
+    ToastModule,
+    InputTextModule,
+    ProgressBarModule,
+    SkeletonModule,
 
     AppRoutingModule,
 

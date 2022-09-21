@@ -4,7 +4,7 @@ export class HttpRequestResult<T>{
 
   constructor() { }
 
-  public data!: T;
+  public data?: T;
   public info?: Info;
 
 }
